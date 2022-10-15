@@ -21,8 +21,9 @@ Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Operar()
+        
         If Edad >= 18 Then
-            MessageBox.Show("Cantidad de Sufragios: " & Consulta, "¡GRACIAS!")
+            MessageBox.Show("Cantidad de S: " & Consulta, "¡GRACIAS!")
         ElseIf Edad < 18 Then
             MessageBox.Show("¡Usted aun no tiene edad para sufragar!", "¡GRACIAS!")
         End If
